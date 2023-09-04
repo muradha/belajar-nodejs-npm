@@ -1,0 +1,26 @@
+{
+  "name": "belajar-nodejs-npm",
+  "version": "1.0.0",
+  "description": "Belajar NodeJS NPM",
+  "exports":{
+    "." : "./index.js",
+    "./write": "./write.js"
+  },
+  "scripts": {
+    "run": "node index.js",
+    "prestart" : "echo 'Before application start' ",
+    "start": "node index.js",
+    "poststart" : "echo 'After application start' ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "npm"
+  ],
+  "type": "module",
+  "author": "Rizki Adha",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "4.17.21"
+  }
+}
